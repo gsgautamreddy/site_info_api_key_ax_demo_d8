@@ -1,0 +1,14 @@
+
+site_info_api_key_ax_demo.site_info_api_key_controller_getData:
+  path: '/page_json/{site_api_key}/{node}'
+  defaults:
+    _controller: '\Drupal\site_info_api_key_ax_demo\Controller\SiteInfoApiKeyController::getData'
+    _title: 'ControllerMethod'
+  options:
+    parameters:
+      site_api_key:
+        type: String
+      node:
+        type: entity:node
+  requirements:
+    _permission: 'access content'
