@@ -1,5 +1,0 @@
-name: 'Site Info API Key Ax Demo'
-type: module
-description: 'A new form text field named "Site API Key" needadded to the "Site Configuration" form.'
-core: 8.x
-package: 'Custom'
